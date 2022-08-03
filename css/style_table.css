@@ -1,0 +1,44 @@
+/* tabla */
+
+.main-container {
+    margin: 150px auto;
+    width: 50%;
+}
+
+
+h1 {
+    border-top: black;
+    text-align: center;
+}
+
+
+table {
+    background-color: #EEEEEE;
+    top: 50px;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    padding: 20px;
+}
+
+
+thead {
+    background-color: #b80f22;
+    border-bottom: solid 5px #000000;
+    color: white;
+    font-size: 18px;
+}
+
+tr:hover td {
+    cursor: pointer;
+    background: #FF3300;
+    color: #FAFAFA;
+}
+
+tr:nth-child(even) {
+    background-color: #6A1B9A;
+}
